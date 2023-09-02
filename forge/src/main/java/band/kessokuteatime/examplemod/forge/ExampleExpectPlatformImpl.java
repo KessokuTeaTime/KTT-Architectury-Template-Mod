@@ -1,6 +1,6 @@
-package net.examplemod.forge;
+package band.kessokuteatime.examplemod.forge;
 
-import net.examplemod.ExampleExpectPlatform;
+import band.kessokuteatime.examplemod.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;

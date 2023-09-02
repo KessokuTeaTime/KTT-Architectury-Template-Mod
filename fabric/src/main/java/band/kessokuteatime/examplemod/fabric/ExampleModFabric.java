@@ -1,6 +1,6 @@
-package net.examplemod.fabric;
+package band.kessokuteatime.examplemod.fabric;
 
-import net.examplemod.ExampleMod;
+import band.kessokuteatime.examplemod.ExampleMod;
 import net.fabricmc.api.ModInitializer;
 
 public class ExampleModFabric implements ModInitializer {

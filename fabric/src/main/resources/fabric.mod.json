@@ -11,7 +11,7 @@
     "homepage": "https://github.com/KessokuTeaTime",
     "sources": "https://github.com/KessokuTeaTime/KTT-Template-Mod-Architectury"
   },
-  "license": "GPL-3.0",
+  "license": "CC0-1.0",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {

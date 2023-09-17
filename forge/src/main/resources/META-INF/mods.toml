@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[46,)"
 #issueTrackerURL = ""
-license = "GPL-3.0"
+license = "CC0-1.0"
 
 [[mods]]
 modId = "examplemod"

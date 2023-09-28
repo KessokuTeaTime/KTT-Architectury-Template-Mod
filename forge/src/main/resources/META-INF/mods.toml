@@ -4,31 +4,30 @@ loaderVersion = "[46,)"
 license = "CC0-1.0"
 
 [[mods]]
-modId = "examplemod"
+modId = "mod"
 version = "${version}"
-displayName = "KTT-Template-Mod-Architectury for Forge"
+displayName = "Mod for Forge"
 displayURL = "https://github.com/KessokuTeaTime/KTT-Template-Mod-Architectury"
-authors = "KessokuTeaTime"
+authors = "Kessoku Tea Time"
 description = '''
-This is an example description! Tell everyone what your mod is about!
 '''
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.mod]]
 modId = "forge"
 mandatory = true
 versionRange = "[46,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.mod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.mod]]
 modId = "architectury"
 mandatory = true
 versionRange = "[9,)"

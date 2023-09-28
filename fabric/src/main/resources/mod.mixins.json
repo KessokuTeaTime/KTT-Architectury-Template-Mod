@@ -1,13 +1,12 @@
 {
   "required": true,
-  "package": "band.kessokuteatime.examplemod.mixin",
+  "package": "band.kessokuteatime.mod.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MixinTitleScreen"
   ],
   "mixins": [
   ],
   "injectors": {
-    "defaultRequire": 1
+    "defaultRequire": 0
   }
 }

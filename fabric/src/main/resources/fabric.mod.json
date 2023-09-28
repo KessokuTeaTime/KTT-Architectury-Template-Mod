@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "mod",
   "version": "${version}",
-  "name": "KTT-Template-Mod-Architectury for Fabric",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Mod for Fabric",
+  "description": "",
   "authors": [
-    "KessokuTeaTime"
+    "Kessoku Tea Time"
   ],
   "contact": {
     "homepage": "https://github.com/KessokuTeaTime",
@@ -16,12 +16,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "band.kessokuteatime.examplemod.fabric.ExampleModFabric"
+      "band.kessokuteatime.mod.fabric.ModFabric"
     ]
   },
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20",
+    "minecraft": "~1.20.x",
     "architectury": ">=9.1.12"
   }
 }

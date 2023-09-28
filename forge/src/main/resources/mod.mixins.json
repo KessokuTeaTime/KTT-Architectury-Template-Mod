@@ -1,12 +1,12 @@
 {
   "required": true,
-  "package": "net.examplemod.mixin.forge",
+  "package": "band.kessokuteatime.mod.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
   ],
   "mixins": [
   ],
   "injectors": {
-    "defaultRequire": 1
+    "defaultRequire": 0
   }
 }

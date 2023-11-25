@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+#issueTrackerURL = ""
+license = "CC0-1.0"
+
+[[mods]]
+modId = "mod"
+version = "${version}"
+displayName = "Mod for Forge"
+displayURL = "https://github.com/KessokuTeaTime/KTT-Template-Mod-Architectury"
+authors = "Kessoku Tea Time"
+description = '''
+'''
+logoFile = "icon.png"
+
+[[mixins]]
+config = "mod-common.mixins.json"
+
+[[mixins]]
+config = "mod.mixins.json"
+
+[[dependencies.mod]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9,)"
+ordering = "AFTER"
+side = "BOTH"

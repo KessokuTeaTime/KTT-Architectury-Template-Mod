@@ -13,21 +13,21 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.Supplier;
 
-public class Mod {
-    public static final String ID = "examplemod", NAME = "Example Mod";
+public class ModCommon {
+    public static final String ID = "examplemod", NAME = "Example ModCommon";
 
     // We can use this if we don't want to use DeferredRegister
     public static final Supplier<RegistrarManager> REGISTRIES = Suppliers.memoize(() -> RegistrarManager.get(ID));
 
     public static final ItemGroup EXAMPLE_TAB = CreativeTabRegistry.create(
             Text.translatable(new Identifier(ID, "example_tab").toTranslationKey()),
-            () -> Mod.EXAMPLE_ITEM.get().getDefaultStack()
+            () -> ModCommon.EXAMPLE_ITEM.get().getDefaultStack()
     );
     
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ID, RegistryKeys.ITEM);
     public static final RegistrySupplier<Item> EXAMPLE_ITEM = ITEMS.register(
             "example_item",
-            () -> new Item(new Item.Settings().arch$tab(Mod.EXAMPLE_TAB))
+            () -> new Item(new Item.Settings().arch$tab(ModCommon.EXAMPLE_TAB))
     );
     
     public static void init() {
